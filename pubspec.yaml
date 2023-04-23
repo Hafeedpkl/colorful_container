@@ -1,7 +1,7 @@
-name: colorful_container
-description: A new Flutter package project.
+name: colorful_container_v1
+description: Colorful gradiant container with title and subtitle
 version: 0.0.1
-homepage:
+homepage: https://github.com/Hafeedpkl/colorful_container
 
 environment:
   sdk: '>=2.19.6 <3.0.0'

@@ -11,29 +11,52 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This is the package of colorful gradiant container which helps to get less time consuming for users 
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- hieght
+- width
+- title 
+- subtitle
+- gradiant(color1 and color2)
+<hr>
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+flutter pub add colorful_container
 ```
 
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```dart
+
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Colorful Container'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const [
+            ColorfulContainer(
+              hieght: 150,
+              title: 'hello',
+              textColor: Colors.white,
+              subtitle: 'this is subtitle',
+              subtitleColor: Colors.white,
+              color1: Colors.amberAccent,
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+```
