@@ -25,7 +25,7 @@ This is the package of colorful gradiant container which helps to get less time 
 ## Getting started
 
 ```dart
-flutter pub add colorful_container
+flutter pub add colorful_container_v1
 ```
 
 
